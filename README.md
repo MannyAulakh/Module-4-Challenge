@@ -16,7 +16,7 @@ The following challenge involved creating a multiple-choice quiz game. The game 
 
 ## Installation
 
-Page is live on GitHub pages: [https://mdwag316.github.io/Module-4-Challenge/](https://mdwag316.github.io/Module-3-Challenge/)
+Page is live on GitHub pages: [https://mdwag316.github.io/Module-4-Challenge/](https://mdwag316.github.io/Module-4-Challenge/)
 
 ## Image
 
