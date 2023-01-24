@@ -20,9 +20,9 @@ Page is live on GitHub pages: [https://mdwag316.github.io/Module-4-Challenge/](h
 
 ## Image
 
-![Mod 4 Preview](https://github.com/Mdwag316/Module-4-Challenge/assets/images/1.png)
-![Mod 4 Preview](https://github.com/Mdwag316/Module-4-Challenge/blob/main/images/2.png)
-![Mod 4 Preview](https://github.com/Mdwag316/Module-4-Challenge/blob/main/images/3.png)
+![Mod 4 Preview](https://github.com/Mdwag316/Module-4-Challenge/blob/main/assets/images/1.png)
+![Mod 4 Preview](https://github.com/Mdwag316/Module-4-Challenge/blob/main/assets/images/2.png)
+![Mod 4 Preview](https://github.com/Mdwag316/Module-4-Challenge/blob/main/assets/images/3.png)
 
 ## Usage
 
