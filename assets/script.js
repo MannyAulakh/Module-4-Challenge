@@ -45,7 +45,6 @@ function next() {
     } else {
         end.style.display = "block"
         timeEl.style.display = "none"
-        ScoreDisplay.textContent = "Score: " + secondsLeft
     }
 }
 
@@ -63,7 +62,6 @@ function setTime() {
             question.style.display = "none"
             end.style.display = "block"
             timeEl.style.display = "none"
-            ScoreDisplay.textContent = "Score: " + secondsLeft
         } else if (questionNUMBER >= questionlist.length) {
             clearInterval(timerInterval);
         }
@@ -156,6 +154,7 @@ document.addEventListener("click", function (event) {
     if (element.getAttribute("q-answer") == "Incorrect") {
         secondsLeft = secondsLeft - 5
     }
+    ScoreDisplay.textContent = "Score: " + secondsLeft
     answerMessage(element)
 })
 
