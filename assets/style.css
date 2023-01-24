@@ -1,0 +1,40 @@
+
+* {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+body {
+    padding-top: 250px;
+}
+
+.question {
+    display: none;
+}
+
+#end {
+    display: none;
+}
+
+#score-board {
+    display: none;
+    list-style: none;
+}
+
+#score-board p {
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+button {
+    padding: 10px;
+    background: yellow;
+    color: black;
+}
+
+#Inital {
+    background-color: white;
+    color: black;
+}
+

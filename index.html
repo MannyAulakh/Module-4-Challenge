@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Coding Quiz</h1>
+        <section>
+            <p class="time"> Complete before the time runs out!</p>
+        </section>
+    </header>
+
+    <main>
+        <!--Start-->
+        <article id="start">
+            <h2>---------------------------------------------</h2>
+            <h3>Walk through a series a questions</h3>
+            <button id="start-btn">Start</button>
+            <section id="score-board">
+                <p>High Scores</p>
+                <div id="high-scores"></div>
+                <ul></ul>
+            </section>
+        </article>
+
+        <!-- question 1 -->
+        <article class="question" id="q1">
+            <p class="q-text">Which of the following languages is used for styling webpages?</p>
+            <div id="answers">
+                <button class="option" q-answer="Incorrect">HTML</button>
+                <button class="option" q-answer="Incorrect">JAVASCRIPT</button>
+                <button class="option" q-answer="Correct">CSS</button>
+                <button class="option" q-answer="Incorrect">PYTHON</button>
+            </div>
+        </article>
+
+        <!-- question 2 -->
+        <article class="question" id="q2">
+            <p class="q-text">What does API stand for?</p>
+            <div id="answers">
+                <button class="option" q-answer="Correct">Application Programming Interface</button>
+                <button class="option" q-answer="Incorrect">Apply Program Interchange</button>
+                <button class="option" q-answer="Incorrect">Android Practical Injection</button>
+                <button class="option" q-answer="Incorrect">Analytics Python Interest</button>
+            </div>
+        </article>
+
+        <!-- question 3 -->
+        <article class="question" id="q3">
+            <p class="q-text">Which of the following is not a data type in JavaScript?</p>
+            <div id="answers">
+                <button class="option" q-answer="Incorrect">Boolean</button>
+                <button class="option" q-answer="Correct">Words</button>
+                <button class="option" q-answer="Incorrect">String</button>
+                <button class="option" q-answer="Incorrect">Number</button>
+            </div>
+        </article>
+
+        <!-- question 4 -->
+        <article class="question" id="q4">
+            <p class="q-text">What is recursion?</p>
+            <div id="answers">
+                <button class="option" q-answer="Incorrect">A popular library</button>
+                <button class="option" q-answer="Incorrect">A type of racing</button>
+                <button class="option" q-answer="Incorrect">Moving in a cycle</button>
+                <button class="option" q-answer="Correct">Defining a problem in terms of itself</button>
+            </div>
+        </article>
+
+        <!-- question 5 -->
+        <article class="question" id="q5">
+            <p class="q-text">Arrays in Javascript can be used to store?</p>
+            <div id="answers">
+                <button class="option" q-answer="Incorrect">Numbers</button>
+                <button class="option" q-answer="Incorrect">Strings & Numbers</button>
+                <button class="option" q-answer="Incorrect">Booleans</button>
+                <button class="option" q-answer="Correct">All of above</button>
+            </div>
+        </article>
+
+        <!-- Game Over! -->
+        <article id="end">
+            <h2>Game Over!</h2>
+            <div class="input-group">
+                <label for="Inital">Intial</label>
+                <input type="text" id="Inital" placeholder="XX" />
+            </div>
+            <div>
+                <p id="score"></p>
+            </div>
+            <button id="Save">Save</button>
+            <button id="Go-Back">Go Back</button>
+        </article>
+    </main>
+
+    <footer>
+        <p id="answerMessage"></p>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
